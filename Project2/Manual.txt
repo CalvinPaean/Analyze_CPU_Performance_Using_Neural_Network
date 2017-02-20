@@ -1,0 +1,32 @@
+*************************************************Manual of Assignment 2*************************************************
+***************************************************************************************************************************
+***************************************************************************************************************************
+This project includes 3 programs and 1 input text file. 
+The 1st program is NeuralNetwork.java, which is the key program in this project. It predicts CPU performance based on the inputs.
+The 2nd program is LineChartDemo1.java, which makes charts of total errors during each epoch. 
+The 3rd program is LineChartDemo2.java, which compares weights from each different experiemnts to find out any patterns.
+***************************************************************************************************************************
+Steps of usage:
+
+1. This second program "LineChartDemo1.java" and third program "LineChartDemo2.java" require JFreeChart library to be installed on your computer properly, which can be downloaded at: http://www.jfree.org/jfreechart/
+
+2. Run "NeuralNetwork.java". It asks you to specify: 
+	a) the file address of data points, 
+	b) the value of threshold, 
+	c) a file address that stores all the total errors during each epoch, 
+	d) a file address that contains all predicted weights.
+
+3. Then the program creates two additional text files in the addresses you specified in c) and d).
+
+4. All errors created in each epoch will be stored in the c) address. You will need this text file to plot the charts in LineChartDemo1.java.
+
+5. Run "LineChartDemo1.java". It requires you to input the address you specified in c).
+
+6. Then it will create a chart according to the error values in file c). AND, it will automatically delete the file you created in c).
+
+7. Additionally, you can use LineChartDemo2.java to make charts in terms of weights of different experiments. You just need to put the weights of file d) into arrays in the program and run it. It will make charts for you.
+
+
+***************************************************************************************************************************
+***************************************************************************************************************************
+***************************************************************************************************************************
